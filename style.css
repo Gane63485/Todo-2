@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: end;
+}
+
+#todo-data{
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-data{
+  height: 51px;
+  width: 590px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-right: 10px;
+  padding-left: 19px;
+}
+
+#todo-add-btn{
+  height: 51px;
+  width: 119px;
+  background-color: rgb(234, 234, 108);
+  border: none;
+  cursor: pointer;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  -ms-border-radius: 27px;
+  -o-border-radius: 27px;
+}
+
+section{
+  height: 80vh;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.todo-task-containor{
+  height: 39px;
+  width: 100%;
+  display: flex;
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+#todo-text{
+  width: 760px;
+  color: white;
+  font-family: "Sansation", sans-serif;
+  padding-left: 15px;
+  text-transform: capitalize;
+}
+
+.delete-task{
+  width: 90px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(234, 234, 108);
+  border-radius: 23px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+}
